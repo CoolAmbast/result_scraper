@@ -2,13 +2,13 @@ import requests
 
 API_URL    = "https://beu-bih.ac.in/backend/v1/result/get-result"
 ROLL_START = 25105102001
-ROLL_END   = 25105102070
+ROLL_END   = 25105102059
 
 HEADERS = {
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
     "Connection": "keep-alive",
-    "Referer": "https://beu-bih.ac.in/result-two/B.Tech.%201st%20Semester%20Examination,%202026?semester=1&session=2025&exam_held=January%2F2026",
+    "Referer": "https://beu-bih.ac.in/result-two/B.Tech%201st%20Semester%20Examination%202025?semester=1&session=2025&exam_held=January%2F2026",
     "Sec-Fetch-Dest": "empty",
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Site": "same-origin",
